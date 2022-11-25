@@ -127,7 +127,8 @@ p {
  }
 
  .intro-description,
- .spl-desc {
+ .spl-desc,
+  .hero-description {
     width: 70%;
  }
 
@@ -173,8 +174,10 @@ p {
     padding-bottom: 0px;
     }
     .display-img {
+        display: block;
         height: 40vh;
         object-fit: cover;
+        margin-top: 1em;
     }
     .intro-description {
         width: 50%;
